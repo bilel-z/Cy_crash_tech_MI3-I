@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "prototypes.h"
 int main(int argc, char *argv[]){ //vérification que le nombre de paramètres est le bon
 if(argc != 3){
