@@ -2,7 +2,7 @@
 #define PROTOTYPES.H 
 #include <stdio.h>
 #include <stdlib.h>
-typedef struct {
+typedef struct { //structure probablement impertinente
 int year ;
 int collision_id ;
 char *vehicule_id ;
