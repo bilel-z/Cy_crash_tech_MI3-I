@@ -13,5 +13,7 @@ return 1 ;
 // ici on récupère les arguments 
 char *mode = argv[1] ;
 char *fichier = argv[2] ;
+// traitement du fichier en fonction du mode choisi
+
 return 0 ;
 }
