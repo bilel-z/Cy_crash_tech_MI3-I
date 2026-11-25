@@ -14,6 +14,18 @@ return 1 ;
 char *mode = argv[1] ;
 char *fichier = argv[2] ;
 // traitement du fichier en fonction du mode choisi
-
+if(strcmp(mode,"year") == 0){
+year_data(fichier) ;
+}
+else if(strcmp(mode, "age") == 0){
+age_data(fichier) ;
+}
+else if(strcmp(mode, "crash") == 0){
+crash_data(fichier) ;
+}
+else{
+printf("Mode n'existe pas. Erreur.\n") ;
+return 1 ;
+}
 return 0 ;
 }
