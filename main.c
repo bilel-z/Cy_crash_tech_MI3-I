@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include "prototypes.h"
+#include "year_data.h"
+#include "age_data.h"
+#include "crash_data.h"
 int main(int argc, char *argv[]){ //vérification que le nombre de paramètres est le bon
 if(argc != 3){
 printf("Erreur. Les arguments sont invalides\n");
