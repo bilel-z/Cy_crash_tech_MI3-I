@@ -7,5 +7,8 @@ if(argc != 3){
 printf("Erreur. Les arguments sont invalides\n");
 return 1 ;
 }
+// ici on récupère les arguments 
+char *mode = argv[1] ;
+char *fichier = argv[2] ;
 return 0 ;
 }
